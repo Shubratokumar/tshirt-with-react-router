@@ -1,0 +1,12 @@
+.tshirt-container{    
+    border-radius: 25px;
+    border: 1px solid skyblue;
+}
+.tshirt-container img{
+    width: 250px;
+    height: 250px;
+    border-radius: 25px 25px 0 0;
+}
+.tshirt-container button{
+    margin-bottom: 5px;
+}
