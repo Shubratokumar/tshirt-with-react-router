@@ -10,7 +10,7 @@ const Grandpa = () => {
   // const house = 10;
   const [house, setHouse] = useState(1);
 
-  const ornament = "Diamond Ring";
+  const ornament = "Silver Ring";
 
   const buyAHouse = () => {
     const newHouseCount = house + 1;
@@ -18,7 +18,7 @@ const Grandpa = () => {
   };
 
   return (
-    <RingContext.Provider value = {ornament}>
+    <RingContext.Provider value = {[house,ornament]}>
       <div className="grandpa">
         <h3>Grand pa</h3>
         <button onClick={buyAHouse}>Buy A House</button>
